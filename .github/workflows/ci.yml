@@ -4,7 +4,7 @@ jobs:
   build: # имя взято для примера
     runs-on: ubuntu-latest
     steps: 
-    	- uses: actions/checkout@v4
-		- run: make setup
-		- run: make lint
-		- run: make test
+      - uses: actions/checkout@v4
+      - run: make setup
+      - run: make lint
+      - run: make test
