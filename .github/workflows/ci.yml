@@ -8,3 +8,7 @@ jobs:
       - run: make setup
       - run: make lint
       - run: make test
+      - uses: actions/setup-node@v4
+        with:
+            node-version: '18.x'
+      - uses:  hexlet-components/hello-from-hexlet-action@release
